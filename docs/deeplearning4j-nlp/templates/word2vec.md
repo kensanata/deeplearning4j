@@ -229,9 +229,6 @@ The next step is to evaluate the quality of your feature vectors.
         log.info("Closest Words:");
         Collection<String> lst = vec.wordsNearest("day", 10);
         System.out.println(lst);
-        UiServer server = UiServer.getInstance();
-        System.out.println("Started on port " + server.getPort());
-        
         //output: [night, week, year, game, season, during, office, until, -]
 ```
 
